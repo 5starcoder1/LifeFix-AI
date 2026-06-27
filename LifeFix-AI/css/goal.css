@@ -1,0 +1,74 @@
+
+      .lfxg-title {
+        text-align: center;
+        margin-bottom: 10px;
+      }
+      .lfxg-xp {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      .lfxg-form {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 20px;
+      }
+      .lfxg-form input,
+      .lfxg-form select {
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+        background: #11183c;
+        color: white;
+      }
+
+      .lfxg-btn {
+        background: linear-gradient(45deg, #6a5cff, #00d4ff);
+        border: none;
+        padding: 10px;
+        border-radius: 10px;
+        color: white;
+        cursor: pointer;
+      }
+
+      .lfxg-card {
+        background: rgba(255, 255, 255, 0.05);
+        padding: 15px;
+        border-radius: 15px;
+        margin-bottom: 15px;
+      }
+
+      .lfxg-progress {
+        height: 8px;
+        background: #1a214f;
+        border-radius: 10px;
+        margin-top: 10px;
+      }
+      .lfxg-fill {
+        height: 100%;
+        background: linear-gradient(90deg, #6a5cff, #00d4ff);
+        border-radius: 10px;
+      }
+
+      .lfxg-actions {
+        margin-top: 10px;
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+      }
+      .lfxg-complete {
+        background: #00c853;
+      }
+      .lfxg-delete {
+        background: #ff3d00;
+      }
+
+      /* .lfxg-chart {
+        height: 300px;
+        margin-top: 30px;
+        background: rgba(255, 255, 255, 0.05);
+        padding: 20px;
+        border-radius: 15px;
+      } */
