@@ -1,0 +1,159 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+body{
+background:#070b17;
+color:#fff;
+min-height:100vh;
+padding:25px;
+}
+
+.smx-memory-page{
+/* max-width:1200px; */
+margin:auto;
+}
+
+.smx-topbar{
+margin-bottom:30px;
+}
+
+.smx-topbar h1{
+font-size:38px;
+margin-bottom:8px;
+background:linear-gradient(90deg,#8b5cf6,#06b6d4);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+}
+
+.smx-topbar p{
+color:#aaa;
+}
+
+/* Cards */
+.smx-stats{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:18px;
+margin-bottom:25px;
+}
+
+.smx-card{
+background:#11182b;
+padding:25px;
+border-radius:18px;
+box-shadow:0 10px 30px rgba(0,0,0,.25);
+}
+
+.smx-card h2{
+font-size:34px;
+margin-bottom:10px;
+}
+
+.smx-card span{
+color:#aaa;
+}
+
+/* Controls */
+.smx-controls{
+display:flex;
+flex-wrap:wrap;
+gap:12px;
+margin-bottom:20px;
+}
+
+.smx-controls input{
+flex:1;
+min-width:220px;
+padding:14px;
+border:none;
+outline:none;
+border-radius:12px;
+background:#11182b;
+color:#fff;
+}
+
+.smx-controls button{
+padding:14px 18px;
+border:none;
+border-radius:12px;
+background:#7c3aed;
+color:#fff;
+cursor:pointer;
+}
+
+.smx-controls button:hover{
+opacity:.9;
+}
+
+/* Search */
+.smx-search-box{
+margin-bottom:20px;
+}
+
+.smx-search-box input{
+width:100%;
+padding:14px;
+border:none;
+border-radius:12px;
+background:#11182b;
+color:#fff;
+}
+
+/* Memory List */
+.smx-memory-list{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:16px;
+}
+
+.smx-memory-item{
+background:#11182b;
+padding:18px;
+border-radius:16px;
+position:relative;
+line-height:1.6;
+}
+
+.smx-memory-item .smx-date{
+font-size:12px;
+color:#888;
+margin-top:10px;
+}
+
+.smx-memory-item button{
+position:absolute;
+top:12px;
+right:12px;
+border:none;
+background:#ef4444;
+color:#fff;
+padding:6px 10px;
+border-radius:8px;
+cursor:pointer;
+}
+
+.smx-empty{
+color:#888;
+padding:20px;
+}
+
+/* Mobile */
+@media(max-width:768px){
+
+.smx-topbar h1{
+font-size:28px;
+}
+
+.smx-controls{
+flex-direction:column;
+}
+
+.smx-controls button{
+width:100%;
+}
+
+}
